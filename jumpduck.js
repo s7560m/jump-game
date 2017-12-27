@@ -87,7 +87,7 @@ function Game() {
     var me = this;
 
     me.create = function(player) {
-        var x = canvas.width / 2 - 700; // New x position for each ground that's spawned
+        var x = canvas.width / 2 - 800; // New x position for each ground that's spawned
         ground.push(new Ground(x, canvas.height / 2 + 25, 400, 600, 25, 50, 100)); // Push new ground objects
         if (ground.length > 0) {
             for (var i = 0; i < ground.length; i++) {
