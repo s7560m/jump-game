@@ -93,7 +93,7 @@ function Game() {
             for (var i = 0; i < ground.length; i++) {
                 ground[ground.length - 1].spawn();
                 ground[ground.length - 1].makeHoleGap();
-                x += ground[ground.length - 1].sx + ground[i].hole_distance;
+                x += ground[i].sx + ground[i].hole_distance;
                 ground[ground.length - 1].x = x;
             }
         }
